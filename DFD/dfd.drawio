@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2024-04-04T20:09:45.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2lcVLDUo0cIaEkxiDnFR" version="24.2.2" type="device">
+  <diagram name="Page-1" id="T__nNTs6KDDQc0Uck8rp">
+    <mxGraphModel dx="1900" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-1" target="1gnaxxWOwtUsH3RMDmaW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-1" value="Collection of All Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="395" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-2" target="1gnaxxWOwtUsH3RMDmaW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-2" value="Preprocessing and Cleaning of Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="396" width="130" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-3" target="1gnaxxWOwtUsH3RMDmaW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="432.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-3" target="1gnaxxWOwtUsH3RMDmaW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-3" value="Splitting Data into Risk data, Equity and Mutual Funds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="111" y="395" width="139" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-4" target="1gnaxxWOwtUsH3RMDmaW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data of individuals with demographics like&amp;nbsp;Income, Age, Marital Status, Family Members, Property Owner.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="329" y="285" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-5" target="1gnaxxWOwtUsH3RMDmaW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-5" value="Get the Financial Risk Tolerance Score based on these demographics." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-6" target="1gnaxxWOwtUsH3RMDmaW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-6" value="Divide different Risk category based on the score obtained in previous step." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="686" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-7" target="1gnaxxWOwtUsH3RMDmaW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-7" value="All Equity Data from 2014-2020 daily price." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="329" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-8" target="1gnaxxWOwtUsH3RMDmaW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Split the data by Market Capital and train on different timeframes to get cumulative returns&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-9" target="1gnaxxWOwtUsH3RMDmaW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Based on individuals Risk tolerance levels divide the equities.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680.5" y="404" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-10" target="1gnaxxWOwtUsH3RMDmaW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-10" value="All types of Mutual Funds data&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="329" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-11" target="1gnaxxWOwtUsH3RMDmaW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Split the Equity, Debt, Hybrid, Solution oriented funds and get the returns on different timeframes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-12" target="1gnaxxWOwtUsH3RMDmaW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-12" value="Divide the funds based on different Risk Tolerance level" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="686" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-13" value="Suggest Top performing stocks for each category based on Risk Tolerance level." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="910" y="396" width="130" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1gnaxxWOwtUsH3RMDmaW-29" target="1gnaxxWOwtUsH3RMDmaW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-29" value="User Inputs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="915" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1gnaxxWOwtUsH3RMDmaW-32" value="Portfolio Recommendations tailored using User preferences" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
