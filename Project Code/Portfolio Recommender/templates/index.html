@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      h1 {
+        font-weight: 700;
+      }
+      .form-group label {
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Questionnaire</h1>
+      <form action="{{ url_for('submit') }}" method="post">
+        <div class="form-group">
+          <label for="gender">What's your Gender?</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="car">Do you own a Vehicle?</label>
+          <select class="form-control" id="car" name="car">
+            <option value="Y">Yes</option>
+            <option value="N">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="property">Do you own a property?</label>
+          <select class="form-control" id="property" name="property">
+            <option value="Y">Yes</option>
+            <option value="N">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="martial_status">Your Martial Status</label>
+          <select class="form-control" id="martial_status" name="martial_status">
+            <option value="Married">Married</option>
+            <option value="Single / not married">Single / not married</option>
+            <option value="Civil marriage">Civil marriage</option>
+            <option value="Separated">Separated</option>
+            <option value="Widow">Widow</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="house_type">What is your House Type?</label>
+          <select class="form-control" id="house_type" name="house_type">
+            <option value="House / apartment">House / apartment</option>
+            <option value="With parents">With parents</option>
+            <option value="Rented apartment">Rented apartment</option>
+            <option value="Municipal apartment">Municipal apartment</option>
+            <option value="Co-op apartment">Co-op apartment</option>
+            <option value="Office apartment">Office apartment</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Your Age?</label>
+          <input class="form-control" type="number" id="age" name="age" min="18" max="100" step="1">
+        </div>
+        <div class="form-group">
+          <label for="employment_status">Are you Employed?</label>
+          <select class="form-control" id="employment_status" name="employment_status">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="annual_income">Provide your Annual Income(in ₹)</label>
+          <input class="form-control" type="number" id="annual_income" name="annual_income" min="1000">
+        </div>
+        <div class="form-group">
+          <label for="occupation">Provide your occupation from the options below</label>
+          <select class="form-control" id="occupation" name="occupation">
+            <option value="Managers">Managers</option>
+            <option value="High skill tech staff">High skill tech staff</option>
+            <option value="Accountants">Accountants</option>
+            <option value="Medicine staff">Medicine staff</option>
+            <option value="HR staff">HR staff</option>
+            <option value="IT staff">IT staff</option>
+            <option value="Sales staff">Sales staff</option>
+            <option value="Core staff">Core staff</option>
+            <option value="Security staff">Security staff</option>
+            <option value="Cooking staff">Cooking staff</option>
+            <option value="Private service staff">Private service staff</option>
+            <option value="Secretaries">Secretaries</option>
+            <option value="Realty agents">Realty agents</option>
+            <option value="Laborers">Laborers</option>
+            <option value="Drivers">Drivers</option>
+            <option value="Cleaning staff">Cleaning staff</option>
+            <option value="Low-skill Laborers">Low-skill Laborers</option>
+            <option value="Waiters/barmen staff">Waiters/barmen staff</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="education">Provide your Education Qualification</label>
+          <select class="form-control" id="education" name="education">
+            <option value="Academic degree">Academic degree</option>
+            <option value="Higher education">Higher education</option>
+            <option value="Incomplete higher">Incomplete higher</option>
+            <option value="Secondary / secondary special">Secondary / secondary special</option>
+            <option value="Lower secondary">Lower secondary</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label  for="family_members">How many Family Members(Dependants) do you have?</label>
+          <input class="form-control" type="number" id="family_members" name="family_members" min="1" step="1">
+        </div>
+        <div class="form-group">
+          <label for="investing_amount">What amount are you planning to invest(in ₹)?</label>
+          <input class="form-control" type="number" id="investing_amount" name="investing_amount" min="50" step="1">
+        </div>
+        <div class="form-group">
+          <label for="investing_time">What is the term you want to invest for?</label>
+          <select class="form-control" id="investing_time" name="investing_time">
+            <option value="1">1 Month</option>
+            <option value="3">3 Months</option>
+            <option value="12">3 months to 1 year</option>
+            <option value="36">1 to 3 years</option>
+            <option value="60">3 to 5 years</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
